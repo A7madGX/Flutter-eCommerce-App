@@ -28,7 +28,7 @@ class ProductPage extends StatelessWidget {
                       Navigator.of(context).pop();
                     },
                     child: CircleAvatar(
-                      backgroundColor: LightTheme.secondarybackgroundTheme,
+                      backgroundColor: LightTheme.thirdbackgroundTheme,
                       child: Icon(
                         Icons.arrow_back_ios_sharp,
                         color: LightTheme.mainTheme,

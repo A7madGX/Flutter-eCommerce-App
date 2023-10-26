@@ -38,7 +38,7 @@ class StateController extends ChangeNotifier {
     notifyListeners();
   }
 
-  // Settingd controller
+  // Settings controller
   int profilepageIndex = 0;
   void selectProfileIndex(int index) {
     profilepageIndex = index;

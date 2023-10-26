@@ -23,7 +23,7 @@ class _MyGridItemState extends State<MyGridItem>
   void initState() {
     super.initState();
     animationController = AnimationController(
-        vsync: this, duration: const Duration(milliseconds: 1500));
+        vsync: this, duration: const Duration(milliseconds: 2000));
   }
 
   @override
